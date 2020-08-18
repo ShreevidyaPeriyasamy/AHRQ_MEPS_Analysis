@@ -35,5 +35,4 @@ download.file(url, temp <- tempfile())
 
 meps2017_full <- unzip(temp, exdir = tempdir())
 
-dn2017 <- read.xport(meps2017_full)
 meps2017_full <- read.xport(meps2017_full)
